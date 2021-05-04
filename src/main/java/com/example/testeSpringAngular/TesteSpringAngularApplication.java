@@ -22,7 +22,9 @@ public class TesteSpringAngularApplication {
 		return args -> {
 			Stream.of("Ivan Guimarães", "Nathalia Caroline", "Felipe Matos").forEach(nome -> {
 				Usuario novoUsuario  = new Usuario(nome, nome.toLowerCase() + "@gmail.com");
+				usuarioRepositorio.save(novoUsuario);
 			});
+			usuarioRepositorio.findAll().forEach(System.out::println);
 		};
 	}
 }
