@@ -20,7 +20,7 @@ public class TesteSpringAngularApplication {
 	@Bean
 	CommandLineRunner init(UsuarioRepositorio usuarioRepositorio) {
 		return args -> {
-			Stream.of("Ivan Guimarães", "Nathalia Caroline", "Felipe Matos").forEach(nome -> {
+			Stream.of("pessoa01", "pessoa02", "pessoa03").forEach(nome -> {
 				Usuario novoUsuario  = new Usuario(nome, nome.toLowerCase() + "@gmail.com");
 				usuarioRepositorio.save(novoUsuario);
 			});
