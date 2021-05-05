@@ -1,12 +1,12 @@
 import { Injectable } from '@angular/core';
-import { HttpClient, HttpHeaders } from "@angular/common/http";
-import { Usuario } from "../models/usuario";
+import { HttpClient } from "@angular/common/http";
 import { Observable } from "rxjs";
+import { Usuario } from "../models/usuario";
 
 @Injectable({
   providedIn: 'root'
 })
-export class UserServiceService {
+export class UserService {
 
   private urlUsuario: string = "";
 
@@ -21,5 +21,4 @@ export class UserServiceService {
   public save(usuario: Usuario) {
     return this.http.post<Usuario>(this.urlUsuario, usuario);
   }
-
 }
