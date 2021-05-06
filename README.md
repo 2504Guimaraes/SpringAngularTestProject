@@ -17,7 +17,7 @@ O projeto é feito em Maven do Spring initializr, contento a dependência
 Web do Spring. Simplesmente crie um projeto nessas especificações, usando esse link: 
 [spring.io](https://start.spring.io/). Faça como na imagem a baixo:
 
-![img_ilustrativa](https://raw.githubusercontent.com/2504Guimaraes/SpringAngularTestProject/master/imagens/imgIlustrativa.PNG)
+![img_ilustrativa](#)
 
 Após o seu arquivo Maven ser baixado, descompacteo. Após
 você ter botado a sua aplicação em um local adequado do seu computador, ponha as 
