@@ -11,12 +11,13 @@ registrar requisitos necessários para conexão entre a framework Angular e um p
 Java construído em Maven.
 
 ## Introdução descritiva dos pontos principais da aplicação
-lorem lorem
 
 ### Parte do projeto com relação ao Back-End
 O projeto é um projeto feito em Maven do Spring initializr, contento a dependência
 Web do Spring. Simplesmente criar um projeto nessas especificações aqui 
-[spring.io](https://start.spring.io/).
+[spring.io](https://start.spring.io/). Resumudamente, um projeto Maven como na imagem a baixo:
+
+[imgagem]
 
 ### Parte do projeto com relação ao Front-End
 lorem lorem
