@@ -19,7 +19,24 @@ Web do Spring. Simplesmente criar um projeto nessas especificações aqui
 
 ![img_ilustrativa](https://raw.githubusercontent.com/2504Guimaraes/SpringAngularTestProject/master/imagens/imgIlustrativa.PNG)
 
-Após o seu arquivo Maven ser baixado, descompacteo e inicie a sua alicação.
+Após o seu arquivo Maven ser baixado, descompacteo. Após
+você ter botado a sua aplicação em um local adequado do seu computador, ponha as 
+seguintes dependências dentro da pasta **pom.xml**, pois precisaremos de um banco de dados, 
+no nosso caso **MySQL**.
+
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+    
+    <dependency>
+        <groupId>mysql</groupId>
+        <artifactId>mysql-connector-java</artifactId>
+    </dependency>
+
+Feito isso, seu projeto Maven já será capaz de conectar seu backend a um banco de dados externo, por
+meio da dependência **spring-boot-starter-data-jpa** e se conectar a um banco de dados **MySQL** por meio da 
+dependência **mysql-connector-java**.
 
 ### Parte do projeto com relação ao Front-End
 lorem lorem
