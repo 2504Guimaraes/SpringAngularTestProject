@@ -13,9 +13,9 @@ Java construído em Maven.
 ## Introdução descritiva dos pontos principais da aplicação
 
 ### Parte do projeto com relação ao Back-End
-O projeto é um projeto feito em Maven do Spring initializr, contento a dependência
-Web do Spring. Simplesmente criar um projeto nessas especificações aqui 
-[spring.io](https://start.spring.io/). Resumudamente, um projeto Maven como na imagem a baixo:
+O projeto é feito em Maven do Spring initializr, contento a dependência
+Web do Spring. Simplesmente crie um projeto nessas especificações, usando esse link: 
+[spring.io](https://start.spring.io/). Faça como na imagem a baixo:
 
 ![img_ilustrativa](https://raw.githubusercontent.com/2504Guimaraes/SpringAngularTestProject/master/imagens/imgIlustrativa.PNG)
 
@@ -39,5 +39,8 @@ meio da dependência **spring-boot-starter-data-jpa** e se conectar a um banco d
 dependência **mysql-connector-java**.
 
 ### Parte do projeto com relação ao Front-End
-lorem lorem
+
+Em um projeto Maven, todos os diretórios designados para a camada de vizualização (*view*) ficam dentro da
+pasta [/src/main/resources/templates](https://github.com/2504Guimaraes/SpringAngularTestProject/tree/master/src/main/resources/templates).
+É nesse diretório onde nosso frontend será construído.
 
