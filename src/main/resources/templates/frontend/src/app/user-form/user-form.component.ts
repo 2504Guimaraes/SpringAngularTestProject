@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Usuario } from "../models/usuario";
+import {ActivatedRoute, Router} from "@angular/router";
+import {UserService} from "../services/user.service";
 
 @Component({
   selector: 'app-user-form',
@@ -7,9 +10,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class UserFormComponent implements OnInit {
 
-  constructor() { }
+  usuario: Usuario;
+
+  constructor(private route: ActivatedRoute,
+              private router: Router,
+              private userService: UserService)
+  {
+      this.usuario = new Usuario();
+  }
+
+  onSubmit() {
+    this.userService.save(this.usuario).subscribe(result =>
+      this.goToUserList());
+  }
+
+  goToUserList() {
+    this.router.navigate(['/usuarios']);
+  }
 
   ngOnInit(): void {
   }
-
 }
