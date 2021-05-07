@@ -38,6 +38,22 @@ Feito isso, seu projeto Maven já será capaz de conectar seu backend a um banco
 meio da dependência **spring-boot-starter-data-jpa** e se conectar a um banco de dados **MySQL** por meio da 
 dependência **mysql-connector-java**.
 
+Depois disso, você deverá criar um arquivo chamado **application-dev.properties** dentro
+de [src/main/resources](https://github.com/2504Guimaraes/SpringAngularTestProject/tree/master/src/main/resources).
+Esse arquivo muito interessante, criará seu banco de dados local, o exato banco ao qual
+o seu sistema fará conexão com. O arquivo deve conter as seguintes informações:
+
+    spring.datasource.url=jdbc:mysql://localhost:3306/nome-banco-de-dados?createDatabaseIfNotExist=true&useSSL=false
+    spring.datasource.username=usuário-padrao-do-seu-MySQL
+    spring.datasource.password=senha-padrao-do-seu-MySQL
+    
+    spring.jpa.hibernate.ddl-auto=create
+
+A ultima linha contendo a informação abaixo é opcional, mas é muito útil, pois sempre que você 
+desligar sua aplicação Java, a instrução apagará todos os dados do banco. Algo ótimo para testes.
+
+    spring.jpa.hibernate.ddl-auto=create
+
 ### Parte do projeto com relação ao Front-End
 
 Em um projeto Maven, todos os diretórios designados para a camada de vizualização (*view*) ficam dentro da
