@@ -43,7 +43,7 @@ de [src/main/resources](https://github.com/2504Guimaraes/SpringAngularTestProjec
 Esse arquivo muito interessante, criará seu banco de dados local, o exato banco ao qual
 o seu sistema fará conexão com. O arquivo deve conter as seguintes informações:
 
-    spring.datasource.url=jdbc:mysql://localhost:3306/nome-banco-de-dados?createDatabaseIfNotExist=true&useSSL=false
+    spring.datasource.url=jdbc:mysql://localhost:3306/nome-escolhido-banco-de-dados?createDatabaseIfNotExist=true&useSSL=false
     spring.datasource.username=usuário-padrao-do-seu-MySQL
     spring.datasource.password=senha-padrao-do-seu-MySQL
     
