@@ -58,5 +58,29 @@ desligar sua aplicação Java, a instrução apagará todos os dados do banco. A
 
 Em um projeto Maven, todos os diretórios designados para a camada de vizualização (*view*) ficam dentro da
 pasta [/src/main/resources/templates](https://github.com/2504Guimaraes/SpringAngularTestProject/tree/master/src/main/resources/templates).
-É nesse diretório onde nosso frontend será construído.
+É nesse diretório onde nosso frontend será construído. Para tal, dentro dessa pasta,
+digite no seu prompt de comando o seguinte comando do Angular CLI:
 
+    C:\Users\nm-usuario\Seu-projeto-Spring-Angular\src\main\resources\templates> ng new frontend
+
+Repetindo, só que dessa vez mostrando só o comando Angular CLI a ser digitado:
+
+    ng new frontend
+
+Com isso seu frontend em Angular será criado. O nome não precisa ser frontend, mas pelo
+menos para mim é mais intuitivo, já que ele é literalmente o frontend.
+
+Agora que o frontend está feito, para rodá-lo é só abrirmos uma outra aba do terminal,
+e dentro do caminho onde a pasta frontend fica (afinal é ela que queremos rodar), entraremos
+dentro dela e usaremos o comando:
+    
+    ng serve
+
+Com isso essa aba específica do terminal ficará acompanhando a depuração do nosso
+código do frontend em tempo real. Caso queira desativar a aplicação Angular, é só ir
+ai nela e digitar:
+
+    Ctrl + C
+
+Ela irá te perguntar se você deseja parar de testar seu frontend Angular, você 
+confirma e fim.
