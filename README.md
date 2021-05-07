@@ -84,3 +84,38 @@ ai nela e digitar:
 
 Ela irá te perguntar se você deseja parar de testar seu frontend Angular, você 
 confirma e fim.
+
+---
+### 🛑 Notas finais sobre detalhes importantes
+
+#### 1. Comandos para criar Components:
+
+    ng generate component nome-desejado
+
+Ou apenas:
+
+    ng g component nome-desejado
+
+#### 2. Comandos para criar Services:
+
+    ng generate service nome-desejado
+
+Ou apenas:
+
+    ng g service nome-desejado
+
+#### 3. Comandos para criar Interfaces:
+
+    ng generate interface nome-desejado
+
+Ou apenas:
+
+    ng g interface nome-desejado
+
+#### 4. Comandos para criar Classes:
+
+    ng generate class nome-desejado
+    
+Ou apenas:
+    
+    ng g class nome-desejado
