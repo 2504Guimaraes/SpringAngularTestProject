@@ -88,7 +88,7 @@ confirma e fim.
 ---
 ### 🛑 Notas finais sobre detalhes importantes
 
-#### 1. Comandos para criar Components:
+####  🔥 1. Comandos para criar Components:
 
     ng generate component nome-desejado
 
@@ -96,7 +96,7 @@ Ou apenas:
 
     ng g component nome-desejado
 
-#### 2. Comandos para criar Services:
+####  🔥 2. Comandos para criar Services:
 
     ng generate service nome-desejado
 
@@ -104,7 +104,7 @@ Ou apenas:
 
     ng g service nome-desejado
 
-#### 3. Comandos para criar Interfaces:
+####  🔥 3. Comandos para criar Interfaces:
 
     ng generate interface nome-desejado
 
@@ -112,7 +112,7 @@ Ou apenas:
 
     ng g interface nome-desejado
 
-#### 4. Comandos para criar Classes:
+####  🔥 4. Comandos para criar Classes:
 
     ng generate class nome-desejado
     
